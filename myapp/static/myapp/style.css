@@ -1,0 +1,52 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* NAVBAR */
+.navbar {
+    background: #111;
+}
+
+/* HERO */
+.hero {
+    height: 100vh;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.hero span {
+    color: #ffd369;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+/* SECTIONS */
+.section {
+    padding: 80px 0;
+}
+
+.section-title {
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+
+/* CARDS */
+.card-box {
+    background: white;
+    padding: 25px;
+    margin: 10px;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    font-weight: 500;
+}
